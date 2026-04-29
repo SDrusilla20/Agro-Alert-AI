@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Trained model weights – upload separately
+models/ner_model/*
+!models/ner_model/.gitkeep
+models/classifier_model/*
+!models/classifier_model/.gitkeep
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
